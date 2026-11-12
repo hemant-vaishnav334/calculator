@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(35deg,rgb(0, 0, 0),rgb(51, 51, 51));
+    user-select: none;
+}
+
+.main{
+    border: solid 1px white;
+    padding: 10px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 0px 3px 15px red;
+}
+
+input{
+    font-size: 2em;
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    padding: 10px;
+    text-align: right;
+    caret-color: transparent;
+    user-select: all;
+}
+
+input::placeholder{
+    color: white;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+button{
+    width: 64px;
+    height: 64px;
+    margin: 15px;
+    font-size: large;
+    background: transparent;
+    color: white;
+    border: none;
+    box-shadow: 3px 4px 15px rgb(255, 0, 34);
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+
+.btn2{
+    color: green;
+}
+
+
+.btn2:hover{
+    box-shadow: 3px 4px 15px green;
+}
+
+.equl{
+    background: orange;
+    box-shadow: 6px 6px 15px rgb(69, 68, 67);
+    
+
+}
+
+button:hover{
+    background: linear-gradient(45deg,rgb(41, 40, 40),black);
+    box-shadow: 3px 4px 15px blue;
+}
+
+.equl:hover{
+    background: linear-gradient(45deg,rgb(90, 53, 2),orange);
+    box-shadow: 3px 4px 15px rgb(15, 15, 15);
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
